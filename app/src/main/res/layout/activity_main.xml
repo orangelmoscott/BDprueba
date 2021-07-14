@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bct_crear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="crearBd"
+        android:text="CREAR TABLA"
+        tools:text="Crear Tabla" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="-----Mantenimiento BD----------"
+        app:autoSizeTextType="uniform" />
+
+    <RadioGroup
+        android:id="@+id/radiogrupo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/btc_consul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar" />
+
+        <RadioButton
+            android:id="@+id/btc_alta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alta" />
+
+        <RadioButton
+            android:id="@+id/btc_eli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar" />
+
+        <RadioButton
+            android:id="@+id/btc_mod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modificar" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btc_ver"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarLayout"
+        android:text="Ver" />
+</LinearLayout>

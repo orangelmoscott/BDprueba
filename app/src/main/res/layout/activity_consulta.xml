@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Consulta">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Nombre  de Usuario:" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bct_recuperar"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:onClick="recuperarDatos"
+        android:text="Rcuperar Codigo" />
+
+    <TextView
+        android:id="@+id/txtrecuperar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <Button
+        android:id="@+id/btc_cerrar"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:onClick="cerrar"
+        android:text="Cerrar" />
+</LinearLayout>

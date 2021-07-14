@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Actualizar">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre de Usuario:" />
+
+    <EditText
+        android:id="@+id/txtNombreActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Nuevo Codigo" />
+
+    <EditText
+        android:id="@+id/txtcodigoActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btc_actualizar"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:onClick="ModificarBD"
+        android:text="modificar"
+        tools:text="Modificar" />
+
+    <TextView
+        android:id="@+id/txtModifi"
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+
+    <Button
+        android:id="@+id/btc_cerraModif"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:onClick="cerra"
+        android:text="Cerrar" />
+</LinearLayout>
